@@ -76,6 +76,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 4rem;
+    background: #f5f5f5;
 }
 
 .sessao {
@@ -83,7 +84,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 5rem;
 }
 
 .sessao__caterogiria {
@@ -112,6 +112,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
+    margin-bottom: 4rem;
 }
 
 .sessao__produto_img {
@@ -214,3 +215,185 @@ body{
     justify-content: space-evenly;
     height: 3.2rem;
 }
+
+/*LOGIN*/
+
+.login {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    background-color: #f5f5f5;
+}
+
+.login__cx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__cx_texto {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.login__cx_email {
+    height: 3rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.login__cx_senha {
+    height: 3rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.login__cx_btn {
+    height: 3rem;
+    width: 25rem;
+    background: #2A7AE4;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+/*PRODUTO*/
+
+.produto__cx {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.produto__cx_tds {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.produto__cx_btn {
+    background: #2A7AE4;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.add {
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adcionar {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    align-items:flex-start;
+}
+
+.adcionar__texto {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.adcionar__url {
+    background: white;
+    width: 30rem;
+    padding: .5rem .4rem;
+    margin-bottom: 1rem;
+}
+.adcionar__url_texto {
+    font-size: .8rem;
+}
+
+.adcionar__url_input {
+    border: none;
+    width: 25rem;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.adcionar__categoria {
+    background: white;
+    width: 30rem;
+    padding: .5rem .4rem;
+    margin-bottom: 1rem;
+}
+
+.adcionar__categoria_texto {
+    font-size: .8rem;
+}
+
+.adcionar__categoria_input {
+    border: none;
+    width: 25rem;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.adcionar__nome {
+    background: white;
+    width: 30rem;
+    padding: .5rem .4rem;
+    margin-bottom: 1rem;
+}
+
+.adcionar__nome_texto {
+    font-size: .8rem;
+}
+
+.adcionar__nome_input {
+    border: none;
+    width: 25rem;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.adcionar__preco {
+    background: white;
+    width: 30rem;
+    padding: .5rem .4rem;
+    margin-bottom: 1rem;
+}
+
+.adcionar__preco_texto {
+    font-size: .8rem;
+}
+
+.adcionar__preco_input {
+    border: none;
+    width: 25rem;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.adcionar__descricao {
+    width: 30rem;
+    background: white;
+    padding: .5rem .4rem;
+    margin-bottom: 1rem;
+}
+
+.adcionar__descricao_input {
+    width: 25rem;
+    height: 4rem;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.adcionar__btn {
+    background: #2A7AE4;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 1rem;  
+    padding: 1rem .4rem;
+} 
