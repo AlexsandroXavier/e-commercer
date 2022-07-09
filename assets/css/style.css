@@ -112,14 +112,17 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
-    margin-bottom: 4rem;
+    margin: .5rem 0 4rem 0;
+}
+
+.sessao__produto_container:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sessao__produto_img {
     background: #2A7AE4;
     width: 176px;
     height: 174px;
-    margin-top: .5rem;
 }
 
 .sessao__produto_produto {
@@ -335,7 +338,7 @@ body{
     border: none;
     width: 25rem;
     font-size: 1rem;
-    padding: 0;
+    padding: .5rem 0 0 0;
 }
 
 .adcionar__nome {
@@ -353,7 +356,7 @@ body{
     border: none;
     width: 25rem;
     font-size: 1rem;
-    padding: 0;
+    padding: .5rem 0 0 0;
 }
 
 .adcionar__preco {
@@ -371,7 +374,7 @@ body{
     border: none;
     width: 25rem;
     font-size: 1rem;
-    padding: 0;
+    padding: .5rem 0 0 0;
 }
 
 .adcionar__descricao {
@@ -383,7 +386,7 @@ body{
 
 .adcionar__descricao_input {
     width: 25rem;
-    height: 4rem;
+    height: 6rem;
     border: none;
     padding: 0;
     font-size: 1rem;
